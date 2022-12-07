@@ -10,6 +10,7 @@ def quickSort(arr):
     pivotList = []
     more = []
     if len(arr) <= 1:
+        print("count:", count, "arr:", arr)
         return arr
     else:
         pivot = arr[0]
